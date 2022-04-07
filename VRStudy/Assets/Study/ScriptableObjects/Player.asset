@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105ded5beacd4850894b9343903c4303, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  normalMaxSpeed: 5
+  moveSmoothTime: 0.1
+  airMoveSmoothTime: 0.5
+  slopeForceRayLength: 1
+  slopeForce: 1
+  friction: 0.5
+  gravityAcceleration: 10
+  lookSmoothTime: 0.1
+  yAngleMin: -50
+  yAngleMax: 90
+  cameraDistance: 8
+  minCameraDistance: 2
+  cameraScrollSensitivity: 60
+  rotationSpeed: 0
+  cameraOffset: {x: 0, y: 0, z: 0}
+  sensitivity: {x: 5, y: -5}
+  runningMaxSpeed: 5
